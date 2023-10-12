@@ -10,4 +10,6 @@ Operadores relacionales
 !=  Desigual a
 """
 resultado = numero_uno != numero_dos
+#El resultado devuelve siempre un booleano
+
 print(resultado)
