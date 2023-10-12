@@ -1,4 +1,5 @@
 #String
+#Textos
 titulo_curso = 'Curso profesional de Python'
 print(titulo_curso)
 
@@ -19,13 +20,16 @@ print('-----------------')
 print(multiples)
 
 #Int
-entero = 10 + 5
+#Usar // para obtener enteros
+entero = 10 // 3
 print(entero)
 
 #float
+#Decimales
 flotante = 3.14 * 2.45
 print(flotante)
 
 #Bool
+#True | False
 booleano = False
 print(booleano)
