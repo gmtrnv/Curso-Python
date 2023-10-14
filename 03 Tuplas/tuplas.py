@@ -15,3 +15,20 @@ print(cursos[-1])
 #se pueden crear subtuplas con los msmos métodos vistos en las listas
 sub_tupla = cursos[:]
 print(sub_tupla)
+
+print('-----------------')
+#las listas usan [], mientras que las tuplas usan ()
+
+#usamos listas cuando la información puede cambiar o debe modificarse en tiempo de ejecución
+cursos = ['Python', 'Django', 'Flask']
+#usamos tuplas cuando la información tiene que ser inmutable a lo largo de la ejecución
+niveles = ('Básico', 'Intermedio', 'Avanzado')
+
+#podemos generar tuplas a partir de listas
+cursos_tupla = tuple(cursos)
+print(cursos_tupla)
+
+#también podemos generar una lista a partir de una tupla
+niveles_lista = list(niveles)
+print(niveles_lista)
+
