@@ -5,7 +5,9 @@ lista = [8, 90, 1, 5, 44, 132, 600, 3, 4]
 #lista.sort(reverse=True) #podemos usar la opción reverse para ordenar de Mayor a menor
 
 #podemos usar el metodo copy para copiar una lista
-nueva_lista = lista.copy()
+#nueva_lista = lista.copy()
+#o usar las secciones para copiar todos los elementos
+nueva_lista = lista[:]
 nueva_lista.sort()
 numero_menor = nueva_lista[0]
 numero_mayor = nueva_lista[-1]

@@ -7,3 +7,11 @@ print(tupla)
 nueva_tupla = ('algo mas', 88)
 tupla += nueva_tupla
 print(tupla)
+
+cursos = ('Python', 'Flask', 'Django', 'Rails', 'MongoDB')
+#se pueden usar índices para acceder a los elementos de las tuplas
+print(cursos[-1])
+
+#se pueden crear subtuplas con los msmos métodos vistos en las listas
+sub_tupla = cursos[:]
+print(sub_tupla)
