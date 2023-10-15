@@ -12,4 +12,14 @@ nombre_completo = nombre + ' ' + apellido
 #podemos usar %i para int y %f para floantes
 nombre_completo = 'Señor %s %s, que bueno que ya tiene %i de años y mide %f de estatura' %(nombre, apellido, edad, 1.88)
 
+#podemos usar el método format
+nombre_completo = 'Su nombre es {} {}. Y tiene {} años'.format(nombre,apellido,edad)
+
+#también podemos nombrar los placeholders
+nombre_completo = 'Tiene {años} y se llama {nombre} {primer_apellido}, recuerda {años} años'.format(
+    nombre = nombre,
+    primer_apellido = apellido,
+    años = edad
+)
+
 print(nombre_completo)
