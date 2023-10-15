@@ -10,3 +10,6 @@ nombre_completo = f'Mr. {nombre} {apellido}, tiene {edad}, recuerda {edad} años
 #print(nombre_completo)
 #se puede imprimir directamente
 print(f'Mr. {nombre} {apellido}, tiene {edad}, recuerda {edad} años y mide {1.42}m!! aún le quedan {edad * 2} de años')
+
+#se puede usar sep para separar los valores dentro del print
+print('algo','que haces', 22, (55,33), ['alguien', 1.45], sep='/*/')
